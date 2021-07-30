@@ -11,7 +11,7 @@ public class FrameInSelenium {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/ashraf/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\drivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit");

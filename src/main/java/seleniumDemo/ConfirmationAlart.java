@@ -8,7 +8,7 @@ public class ConfirmationAlart {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/ashraf/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\drivers\\chromedriver.exe");
 		
 		ChromeDriver driver = new ChromeDriver(); 
 		driver.get("http://leaftaps.com/opentaps");
